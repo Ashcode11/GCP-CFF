@@ -1,6 +1,6 @@
 module "network" {
   source       = "../../modules/network"
-  network_name = "learn-vpc"
+  network_name = "dev-vpc"
   subnets = [
     {
       name       = "subnet-1"
